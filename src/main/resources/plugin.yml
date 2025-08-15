@@ -1,0 +1,15 @@
+name: nexlobby
+version: '1.0'
+main: de.HiorCraft.nex.main.nexlobby
+api-version: '1.21'
+
+commands:
+  sethub:
+    description: Setzt den Hub-Spawnpunkt.
+    usage: /sethub
+    permission: nexlobby.sethub
+    permission-message: You do not have permission to set the hub spawn point.
+
+  permissions:
+    autoteleport.sethub:
+      default: op
