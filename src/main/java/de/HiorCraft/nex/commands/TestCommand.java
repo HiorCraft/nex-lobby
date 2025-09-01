@@ -9,7 +9,7 @@ public class TestCommand extends CommandAPICommand {
 
         executesPlayer((player, args) -> {
 
-            player.sendMessage(Component.text("Hallo " + player.getName()));
+            player.sendMessage(Component.text("Hallo " + player.getName() + "!"));
 
         });
     }
