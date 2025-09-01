@@ -1,19 +1,19 @@
-package de.HiorCraft.nex.main;
+package de.HiorCraft.nex;
 
+import de.HiorCraft.nex.commands.TestCommand;
 import de.HiorCraft.nex.double_jump.DoubleJump;
-import de.HiorCraft.nex.hub.SetHub;
-import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.ConsoleCommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
 
 
-public final class nexlobby extends JavaPlugin {
+public final class NexLobby extends JavaPlugin {
 
     @Override
     public void onEnable() {
 
 
         // The Logo and Version
-        nexlobby instance = this;
+        NexLobby instance = this;
         String green = "§a";
         ConsoleCommandSender console = getServer().getConsoleSender();
         String versionLine = "Plugin-Version: " + getDescription().getVersion();
@@ -31,15 +31,16 @@ public final class nexlobby extends JavaPlugin {
         }
         console.sendMessage("§6" + versionLine);
 
-
+        new TestCommand("test").register();
 
         // Register
         getServer().getPluginManager().registerEvents(new DoubleJump(), this);
-        getServer().getPluginManager().registerEvents(new SetHub(getDataFolder()), this);
+        //getServer().getPluginManager().registerEvents(new SetHub(getDataFolder()), this);
     }
 
     @Override
     public void onDisable() {
+        getLogger().info("bye <3");
         getLogger().info("Essential SMP Plugin is stopping...");
     }
 }

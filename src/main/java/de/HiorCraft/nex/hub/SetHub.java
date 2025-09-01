@@ -1,5 +1,6 @@
 package de.HiorCraft.nex.hub;
 
+import dev.jorel.commandapi.CommandAPICommand;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
