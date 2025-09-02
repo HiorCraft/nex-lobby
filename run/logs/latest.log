@@ -1,96 +1,109 @@
-[15:08:44] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[15:08:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-32-main@e792779 (2025-07-16T20:10:15Z) for Minecraft 1.21.7
-[15:08:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:08:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\Liamf\IdeaProjects\nexlobby\build\libs\nexlobby-1.0.jar'...
-[15:08:45] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\Liamf\IdeaProjects\nexlobby\build\libs\nexlobby-1.0.jar' in 406ms.
-[15:08:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[15:08:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
- - nexlobby (1.0)
-[15:08:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:08:51] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[15:08:51] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[15:08:52] [ServerMain/INFO]: No existing world data, creating new world
-[15:08:53] [ServerMain/INFO]: Loaded 1407 recipes
-[15:08:53] [ServerMain/INFO]: Loaded 1520 advancements
-[15:08:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:08:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 340,8ms
-[15:08:53] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[15:08:53] [Server thread/INFO]: Loading properties
-[15:08:53] [Server thread/INFO]: This server is running Paper version 1.21.7-32-main@e792779 (2025-07-16T20:10:15Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
-[15:08:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:08:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:08:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:08:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[15:08:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:08:54] [Server thread/INFO]: Default game type: SURVIVAL
-[15:08:54] [Server thread/INFO]: Generating keypair
-[15:08:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:08:54] [Server thread/INFO]: Using default channel type
-[15:08:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:08:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:08:54] [Server thread/INFO]: [nexlobby] Loading server plugin nexlobby v1.0
-[15:08:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:08:54] [Server thread/INFO]: Preparing level "world"
-[15:08:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:08:58] [Server thread/INFO]: Preparing spawn area: 2%
-[15:08:58] [Server thread/INFO]: Preparing spawn area: 2%
-[15:08:59] [Server thread/INFO]: Preparing spawn area: 2%
-[15:08:59] [Server thread/INFO]: Preparing spawn area: 2%
-[15:08:59] [Server thread/INFO]: Time elapsed: 1661 ms
-[15:08:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:08:59] [Server thread/INFO]: Preparing spawn area: 2%
-[15:09:00] [Server thread/INFO]: Preparing spawn area: 73%
-[15:09:00] [Server thread/INFO]: Time elapsed: 536 ms
-[15:09:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:09:00] [Server thread/INFO]: Preparing spawn area: 2%
-[15:09:00] [Server thread/INFO]: Time elapsed: 181 ms
-[15:09:00] [Server thread/INFO]: [nexlobby] Enabling nexlobby v1.0
-[15:09:00] [Server thread/INFO]:  _   _  _______ __   __  ____   _____  _____  _____  _____
-[15:09:00] [Server thread/INFO]: | \ | ||__   __|\ \ / / / __ \ |  __ \|_   _|/ ____|/ ____|
-[15:09:00] [Server thread/INFO]: |  \| |   | |    \ V / | |  | || |__) | | | | (___ | (___  
-[15:09:00] [Server thread/INFO]: | . ` |   | |     > <  | |  | ||  _  /  | |  \___ \ \___ \ 
-[15:09:00] [Server thread/INFO]: | |\  |   | |    / . \ | |__| || | \ \ _| |_ ____) |____) |
-[15:09:00] [Server thread/INFO]: |_| \_|   |_|   /_/ \_\____/ |_|  \_\_____|_____/|_____/ 
-[15:09:00] [Server thread/INFO]: Plugin-Version: 1.0
-[15:09:00] [Server thread/INFO]: [spark] Starting background profiler...
-[15:09:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[15:09:00] [Server thread/INFO]: Done preparing level "world" (5.975s)
-[15:09:00] [Server thread/INFO]: Running delayed init tasks
-[15:09:00] [Server thread/INFO]: Done (16.906s)! For help, type "help"
-[15:09:09] [User Authenticator #0/INFO]: UUID of player HiorCraft is de0bbf72-4e54-452b-b262-845a1e3b41ed
-[15:09:10] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to nexlobby v1.0
-java.lang.IllegalArgumentException: name cannot be null
-	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:143) ~[guava-33.3.1-jre.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.getWorld(CraftServer.java:1473) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at org.bukkit.Bukkit.getWorld(Bukkit.java:880) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at nexlobby-1.0-1755263325491.jar/de.HiorCraft.nex.hub.SetHub.onPlayerJoin(SetHub.java:74) ~[nexlobby-1.0-1755263325491.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.7-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:332) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:184) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.7.jar:1.21.7-32-e792779]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:09:10] [Server thread/INFO]: HiorCraft joined the game
-[15:09:10] [Server thread/INFO]: HiorCraft[/127.0.0.1:52383] logged in with entity id 37 at ([world]-182.51158768843356, 84.46366517613116, 303.00014129798217)
-[15:09:18] [Server thread/INFO]: [HiorCraft: Set own game mode to Creative Mode]
-[15:09:21] [Server thread/INFO]: [HiorCraft: Set own game mode to Survival Mode]
-[15:09:43] [Server thread/INFO]: HiorCraft lost connection: Disconnected
-[15:09:43] [Server thread/INFO]: HiorCraft left the game
+[15:19:19] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[15:19:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.7-32-main@e792779 (2025-07-16T20:10:15Z) for Minecraft 1.21.7
+[15:19:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:19:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[15:19:20] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - nexlobby (1.0.0)
+[15:19:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - CommandAPI (10.1.1)
+[15:19:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:19:27] [ServerMain/INFO]: Loaded 1407 recipes
+[15:19:27] [ServerMain/INFO]: Loaded 1520 advancements
+[15:19:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:19:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 341,8ms
+[15:19:27] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[15:19:27] [Server thread/INFO]: Loading properties
+[15:19:27] [Server thread/INFO]: This server is running Paper version 1.21.7-32-main@e792779 (2025-07-16T20:10:15Z) (Implementing API version 1.21.7-R0.1-SNAPSHOT)
+[15:19:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:19:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:19:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:19:28] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[15:19:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:19:28] [Server thread/INFO]: Default game type: SURVIVAL
+[15:19:28] [Server thread/INFO]: Generating keypair
+[15:19:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:19:28] [Server thread/INFO]: Using default channel type
+[15:19:28] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:19:28] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:19:28] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v10.1.1
+[15:19:28] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R5 > NMS_Common > CommandAPIBukkit
+[15:19:28] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[15:19:28] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[15:19:28] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[15:19:28] [Server thread/INFO]: [nexlobby] Loading server plugin nexlobby v1.0.0
+[15:19:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:19:28] [Server thread/INFO]: Preparing level "world"
+[15:19:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:19:29] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:30] [Server thread/INFO]: Preparing spawn area: 2%
+[15:19:30] [Server thread/INFO]: Time elapsed: 733 ms
+[15:19:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:19:30] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:30] [Server thread/INFO]: Time elapsed: 79 ms
+[15:19:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:19:30] [Server thread/INFO]: Preparing spawn area: 0%
+[15:19:30] [Server thread/INFO]: Time elapsed: 49 ms
+[15:19:30] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v10.1.1
+[15:19:30] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[15:19:30] [Server thread/INFO]: [nexlobby] Enabling nexlobby v1.0.0
+[15:19:30] [Server thread/INFO]: [nexlobby] NexLobby Plugin is starting...
+[15:19:30] [Server thread/INFO]: [nexlobby] NexLobby Plugin has started successfully
+[15:19:30] [Server thread/INFO]: [spark] Starting background profiler...
+[15:19:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[15:19:30] [Server thread/INFO]: Done preparing level "world" (1.750s)
+[15:19:30] [Server thread/INFO]: Running delayed init tasks
+[15:19:30] [Server thread/INFO]: Done (12.405s)! For help, type "help"
+[15:19:44] [User Authenticator #0/INFO]: UUID of player HiorCraft is de0bbf72-4e54-452b-b262-845a1e3b41ed
+[15:19:44] [Server thread/INFO]: HiorCraft joined the game
+[15:19:44] [Server thread/INFO]: HiorCraft[/127.0.0.1:50392] logged in with entity id 16 at ([world]-156.26027988523336, 89.0, 213.0577299534315)
+[15:20:05] [Server thread/INFO]: HiorCraft issued server command: /setHub
+[15:20:08] [Server thread/INFO]: HiorCraft lost connection: Disconnected
+[15:20:08] [Server thread/INFO]: HiorCraft left the game
+[15:20:09] [User Authenticator #0/INFO]: UUID of player HiorCraft is de0bbf72-4e54-452b-b262-845a1e3b41ed
+[15:20:10] [Server thread/INFO]: HiorCraft joined the game
+[15:20:10] [Server thread/INFO]: HiorCraft[/127.0.0.1:50446] logged in with entity id 233 at ([world]-156.26027988523336, 89.0, 213.0577299534315)
+[15:20:46] [Server thread/INFO]: HiorCraft issued server command: /setHub
+[15:20:48] [Server thread/INFO]: HiorCraft lost connection: Disconnected
+[15:20:48] [Server thread/INFO]: HiorCraft left the game
+[15:20:50] [User Authenticator #0/INFO]: UUID of player HiorCraft is de0bbf72-4e54-452b-b262-845a1e3b41ed
+[15:20:50] [Server thread/INFO]: HiorCraft joined the game
+[15:20:50] [Server thread/INFO]: HiorCraft[/127.0.0.1:50508] logged in with entity id 300 at ([world]-156.71386529357827, 89.0, 213.34652060757517)
+[15:21:22] [Server thread/INFO]: Stopping the server
+[15:21:22] [Server thread/INFO]: Stopping server
+[15:21:22] [Server thread/INFO]: [nexlobby] Disabling nexlobby v1.0.0
+[15:21:22] [Server thread/INFO]: [nexlobby] NexLobby Plugin is stopping...
+[15:21:22] [Server thread/INFO]: [nexlobby] bye <3
+[15:21:22] [Server thread/INFO]: [CommandAPI] Disabling CommandAPI v10.1.1
+[15:21:22] [Server thread/INFO]: Saving players
+[15:21:22] [Server thread/INFO]: HiorCraft lost connection: Server closed
+[15:21:22] [Server thread/INFO]: HiorCraft left the game
+[15:21:23] [Server thread/INFO]: Saving worlds
+[15:21:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:21:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:21:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:21:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Saved 1131 block chunks, 755 entity chunks, 0 poi chunks in world 'world' in 1,07s
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:21:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,05s
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:21:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,06s
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:21:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:21:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:21:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:21:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:21:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:21:24] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:21:24] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[15:21:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:21:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
