@@ -1,21 +1,19 @@
-# Nexlobby Plugin
+# nexlobby Plugin for Minecraft
 
-A lightweight lobby plugin. This plugin is designed for simple lobbies.
+A simple lobby plugin for [Paper](https://papermc.io/) servers (Minecraft **1.21.7**).  
+Built with [CommandAPI **10.1.1**](https://commandapi.jorel.dev/).  
 
----
+Provides auto teleport to the lobby and a `/sethub` command.
 
-## Features :
+## Features
+- Works on all Paper servers
+- Lightweight & easy to use
+- Uses CommandAPI for modern command registration
+- Commands:
+  - `/sethub` → Set the lobby spawn point
+- Auto-Teleport: Players are automatically sent to the hub when they join
 
-- Double Jump
-- Sethub command
-- Auto TP
+## Command
+/sethub
 
----
-
-# Dependencies
-
-This plugin uses the following APIs:
-
-- [CommandAPI](https://github.com/CommandAPI/CommandAPI) - tested with **v10.1.1**
-- [PaperMC](https://papermc.io/) - tested with **Paper 1.21.7**
-- Java **21+** required.
+Sets the current location as the hub/lobby spawn.
