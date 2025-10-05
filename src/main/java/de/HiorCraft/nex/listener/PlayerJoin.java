@@ -23,7 +23,7 @@ public class PlayerJoin implements Listener {
 
         Location hubLocation = new Location(world, x, y, z, yaw, pitch);
         event.getPlayer().teleport(hubLocation);
-        event.getPlayer().sendMessage("§6Willkommen im Hub!");
+        event.getPlayer().sendMessage("§6Willkommen zurück, §e" + event.getPlayer().getName() + "§6!");
     }
 
 }
