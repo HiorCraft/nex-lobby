@@ -3,6 +3,8 @@ package de.HiorCraft.nex.commands;
 import dev.jorel.commandapi.CommandAPICommand;
 import dev.jorel.commandapi.arguments.FloatArgument;
 import dev.jorel.commandapi.arguments.LocationArgument;
+import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.format.NamedTextColor;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -38,7 +40,10 @@ public class CreatHubCommand extends CommandAPICommand {
 
             plugin.saveConfig();
 
-            player.sendMessage("§6Hub-Position wurde erfolgreich gesetzt.");
+            player.sendMessage(
+                    Component.text("Nex >>", NamedTextColor.DARK_PURPLE)
+                            .append(Component.text(" Hub-Position wurde erfolgreich gesetzt.", NamedTextColor.DARK_AQUA))
+            );
 
         });
     }

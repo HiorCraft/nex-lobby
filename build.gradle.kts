@@ -29,7 +29,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.7-R0.1-SNAPSHOT")
-    compileOnly("dev.jorel:commandapi-bukkit-core:10.1.1")
+    compileOnly("dev.jorel:commandapi-bukkit-core:11.0.0")
 }
 
 paper {
@@ -49,7 +49,7 @@ tasks {
         minecraftVersion("1.21.7")
 
         downloadPlugins {
-            hangar("commandapi", "10.1.1")
+            hangar("commandapi", "11.0.0")
         }
     }
 }
